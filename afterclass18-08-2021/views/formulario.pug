@@ -1,0 +1,17 @@
+html 
+  head
+    title Crear producto
+    include ../partials/menu
+  body
+    form(action='/' method="POST")
+      fieldset 
+        label(for='name') Nombre 
+        input(type="text" name='name' id='name')
+      fieldset 
+        label(for='description') Descripción
+        input(type="text" name='description' id='description')
+      fieldset 
+        label(for='image') Imagen 
+        input(type="url" name='image' id='image')
+      br
+      button(type="submit") Enviar

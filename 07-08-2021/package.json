@@ -1,0 +1,25 @@
+{
+	"name": "07-08-2021",
+	"version": "1.0.0",
+	"description": "",
+	"main": "index.js",
+	"scripts": {
+		"test": "echo \"Error: no test specified\" && exit 1",
+		"server1": "nodemon --inspect ./src/server1.js",
+		"server2": "nodemon --inspect ./src/server2.js",
+		"server3": "nodemon --inspect ./src/server3.js",
+		"server4": "nodemon --inspect ./src/server4.js",
+		"server5": "nodemon --inspect ./src/server5.js"
+	},
+	"keywords": [],
+	"author": "",
+	"license": "ISC",
+	"devDependencies": {
+		"eslint": "^7.32.0",
+		"nodemon": "^2.0.12"
+	},
+	"dependencies": {
+		"express": "^4.17.1",
+		"multer": "^1.4.2"
+	}
+}

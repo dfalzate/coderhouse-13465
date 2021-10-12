@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Document</title>
+	</head>
+	<body>
+		<div></div>
+
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/handlebars.js/4.7.7/handlebars.min.js"></script>
+		<script>
+			const template = Handlebars.compile(
+				`<ul><li>{{nombre}}</li> <li>{{apellido}}</li> <li>{{edad}}</li> <li>{{email}}</li> <li>{{telefono}}</li> </ul>`,
+			)
+			const info = {
+				nombre: 'juan',
+				apellido: 'palomino',
+				edad: 29,
+				email: 'jp@jp.com',
+				telefono: 156489215,
+			}
+			const html = template(info)
+			document.querySelector('div').innerHTML = html
+		</script>
+	</body>
+</html>

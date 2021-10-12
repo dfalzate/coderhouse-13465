@@ -1,0 +1,7 @@
+<h1>^^titulo$$</h1>
+<p>^^mensaje$$</p>
+<b>^^autor$$</b>
+<hr />
+<i>
+	<b>Version: ^^version$$ </b>
+</i>

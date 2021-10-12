@@ -1,0 +1,10 @@
+html 
+  head 
+    title Creación de productos
+    include ../partials/menu
+  body 
+    each producto in productos
+      div 
+        h3 Nombre: #{producto.name}
+        //h3=`Producto ${producto.name}`
+        a(href=`/producto/${producto.id}`) Información 

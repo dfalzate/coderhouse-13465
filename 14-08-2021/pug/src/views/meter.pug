@@ -1,0 +1,8 @@
+html 
+  head
+    title='Meter con pug'
+  body
+    h1(style="color:blue")=title
+    span=min
+    meter(min=min, max=max, value=level)
+    span=max

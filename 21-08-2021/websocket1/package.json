@@ -1,0 +1,22 @@
+{
+	"name": "plantilla",
+	"version": "1.0.0",
+	"description": "",
+	"main": "index.js",
+	"scripts": {
+		"test": "echo \"Error: no test specified\" && exit 1",
+		"server": "nodemon --inspect ./src/server"
+	},
+	"keywords": [],
+	"author": "",
+	"license": "ISC",
+	"devDependencies": {
+		"eslint": "^7.32.0",
+		"nodemon": "^2.0.12"
+	},
+	"dependencies": {
+		"express": "^4.17.1",
+		"node-emoji": "^1.11.0",
+		"socket.io": "^4.1.3"
+	}
+}

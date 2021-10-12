@@ -1,0 +1,21 @@
+{
+	"name": "typescriptcompiler",
+	"version": "1.0.0",
+	"description": "",
+	"main": "index.js",
+	"scripts": {
+		"test": "echo \"Error: no test specified\" && exit 1",
+		"build": "tsc index.ts -w",
+		"start": "nodemon --inspect index.js"
+	},
+	"keywords": [],
+	"author": "",
+	"license": "ISC",
+	"dependencies": {},
+	"devDependencies": {
+		"babel-cli": "^6.26.0",
+		"babel-preset-env": "^1.7.0",
+		"nodemon": "^2.0.12",
+		"typescript": "^4.4.2"
+	}
+}

@@ -1,0 +1,25 @@
+{
+	"name": "04-09-2021",
+	"version": "1.0.0",
+	"description": "",
+	"main": "index.js",
+	"type": "module",
+	"scripts": {
+		"test": "echo \"Error: no test specified\" && exit 1",
+		"js5": "nodemon --inspect ./js5/db.js",
+		"js6": "nodemon --inspect ./js6/db.js"
+	},
+	"keywords": [],
+	"author": "",
+	"license": "ISC",
+	"devDependencies": {
+		"eslint": "^7.32.0",
+		"nodemon": "^2.0.12"
+	},
+	"dependencies": {
+		"dotenv": "^10.0.0",
+		"knex": "^0.95.11",
+		"mysql2": "^2.3.0",
+		"sqlite3": "^5.0.2"
+	}
+}

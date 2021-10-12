@@ -1,0 +1,124 @@
+***** Instalar WSL
+
+Step 1 - Enable the Windows Subsystem for Linux
+
+Open PowerShell as Administrator and run:
+
+dism.exe /online /enable-feature /featurename:Microsoft-Windows-Subsystem-Linux /all /norestart
+
+Step 2 - Check requirements for running WSL 2
+
+Windows logo key + R, type winver
+
+Step 3 - Enable Virtual Machine feature
+
+Open PowerShell as Administrator and run:
+
+dism.exe /online /enable-feature /featurename:VirtualMachinePlatform /all /norestart
+
+Step 4 - Download the Linux kernel update package
+
+https://wslstorestorage.blob.core.windows.net/wslblob/wsl_update_x64.msi
+
+Step 5 - Set WSL 2 as your default version
+
+wsl --set-default-version 2
+
+Step 6 - Install your Linux distribution of choice
+
+Optional
+
+Install Windows Terminal (optional)
+
+Change WSL version
+wsl --list --verbose
+wsl --set-version <distribution name> <versionNumber>
+
+***** Instalar MongoDB
+
+To install MongoDB on WSL
+
+Open your WSL terminal
+Update your Ubuntu packages: sudo apt update
+Once the packages have updated, install MongoDB with: sudo apt-get install mongodb
+Confirm installation and get the version number: mongod --version
+There are 3 commands you need to know once MongoDB is installed:
+
+sudo service mongodb status for checking the status of your database.
+sudo service mongodb start to start running your database.
+sudo service mongodb stop to stop running your database.
+
+Create a database
+
+use myshinynewdb
+db.user.insert({name: "Ada Lovelace", age: 205})
+
+***** Instalar MySQL
+
+Install MySQL
+To install MySQL on WSL (Ubuntu 18.04):
+
+Open your WSL terminal (ie. Ubuntu 18.04).
+Update your Ubuntu packages: sudo apt update
+Once the packages have updated, install MySQL with: sudo apt install mysql-server
+Confirm installation and get the version number: mysql --version
+You may also want to run the included security script. This changes some of the less secure default options for things like remote root logins and sample users. To run the security script:
+
+Start a MySQL server: sudo /etc/init.d/mysql start
+Start the security script prompts: sudo mysql_secure_installation
+The first prompt will ask whether you’d like to set up the Validate Password Plugin, which can be used to test the strength of your MySQL password. You will then set a password for the MySQL root user, decide whether or not to remove anonymous users, decide whether to allow the root user to login both locally and remotely, decide whether to remove the test database, and, lastly, decide whether to reload the privilege tables immediately.
+To open the MySQL prompt, enter: sudo mysql
+
+To see what databases you have available, in the MySQL prompt, enter: SHOW DATABASES;
+
+To create a new database, enter: CREATE DATABASE database_name;
+
+To delete a database, enter: DROP DATABASE database_name;
+
+***** Install in windows
+VSCode
+Mongo compass
+MySQL Workbench
+DBeaver
+Postman
+SmartGit
+Robo 3T
+
+***** Install in WSL
+git, npm, nodejs, curl
+
+YARN
+curl -sS https://dl.yarnpkg.com/debian/pubkey.gpg | sudo apt-key add -
+echo "deb https://dl.yarnpkg.com/debian/ stable main" | sudo tee /etc/apt/sources.list.d/yarn.list
+sudo apt-get update
+sudo apt-get install yarn -y
+
+***** Install ZSH p10k
+
+Manual
+https://medium.com/@shivam1/make-your-terminal-beautiful-and-fast-with-zsh-shell-and-powerlevel10k-6484461c6efb
+
+sudo apt install zsh
+chsh -s $(which zsh)
+sh -c "$(curl -fsSL https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"
+git clone https://github.com/romkatv/powerlevel10k.git $ZSH_CUSTOM/themes/powerlevel10k
+https://github.com/ryanoasis/nerd-fonts/blob/master/patched-fonts/FiraMono/Regular/complete/Fura%20Mono%20Regular%20Nerd%20Font%20Complete.otf?raw=true
+git clone https://github.com/zsh-users/zsh-autosuggestions.git $ZSH_CUSTOM/plugins/zsh-autosuggestions
+git clone https://github.com/zsh-users/zsh-syntax-highlighting.git $ZSH_CUSTOM/plugins/zsh-syntax-highlighting
+
+ZSH_THEME="powerlevel10k/powerlevel10k"
+POWERLEVEL9K_MODE="nerdfont-complete"
+ENABLE_CORRECTION="true"
+plugins=(git zsh-autosuggestions zsh-syntax-highlighting)
+
+"fontFace": "FuraMono Nerd Font",
+
+***** Install nvm
+
+curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.38.0/install.sh | bash
+
+export NVM_DIR="$HOME/.nvm"
+[ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
+[ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This loads nvm bash_completion
+
+

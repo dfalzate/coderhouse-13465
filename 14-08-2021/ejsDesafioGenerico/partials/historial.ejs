@@ -1,0 +1,17 @@
+<div>
+  <h3>Historial</h3>
+  <table>
+    <tr>
+      <th>Nombre</th>
+      <th>Apellido</th>
+      <th>Edad</th>
+    </tr>
+    <% data.forEach(function(persona){ %>
+      <tr>
+        <td><%= persona.nombre %></td>
+        <td><%= persona.apellido %></td>
+        <td><%= persona.edad %></td>
+      </tr>
+    <% }) %>
+  </table>
+</div>

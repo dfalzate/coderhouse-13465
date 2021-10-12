@@ -1,0 +1,36 @@
+﻿Que es frontend y backend
+MERN stack
+Que es nodejs
+Consolas
+Tipos de datos
+	Primitivos
+	Objeto
+Var, let y const
+	Mutabilidad
+Funciones, anonimas, IIFE
+Scope
+Closure
+Clases 
+Arrow function
+Callbacks
+Sincronismo y Asincronismo
+Modulo fs
+	readFile
+	writeFile
+	appendFile
+	unlinkFile
+	mkdir
+Administradores de paquetes
+	npm, yarn
+package.json
+versionado
+	~^*
+Nodemon
+Modulo HTTP
+Express
+Glitch
+
+github y gh
+
+
+

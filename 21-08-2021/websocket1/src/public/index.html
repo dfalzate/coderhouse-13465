@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Nuestro primer app Websocket</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="/socket.io/socket.io.js"></script>
+</head>
+<body>
+    <h1>Websocket</h1>
+    <fieldset>
+      <label for="message">Mensaje</label>
+      <input type="text" name="message" id="message">
+      <button id='send'>Enviar</button>
+    </fieldset>
+    <fieldset>
+      <ul id='messages'>
+
+      </ul>
+    </fieldset>
+    <script>
+      const socket = io()
+
+      const input = document.getElementById("message")
+      const send = document.getElementById("send").addEventListener('click',()=>{
+        socket.emit('messageFront', input.value)
+      })
+
+      socket.on('connectionMessage',(data)=>{
+        console.log(data)
+        alert(data)
+      })
+      
+      socket.on('messageBackend',(data)=>{
+        let inner=''
+        data.map((message)=>{
+          inner+=`
+            <li>
+              <div> SocketId: ${message.socketId} </div>
+              <div> Mensaje: ${message.mensaje} </div>
+            </li>
+          `
+        })
+        document.getElementById('messages').innerHTML=inner
+      })
+    </script>
+</body>
+</html>

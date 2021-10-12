@@ -1,0 +1,187 @@
+* {
+	background-color: #282c34;
+}
+
+#root {
+	height: 100vh;
+	color: white;
+	text-align: center;
+}
+
+.login,
+.signup {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	align-content: center;
+	height: 100vh;
+}
+
+.login__title,
+.signup__title {
+	margin-bottom: 1em;
+}
+
+.login__form,
+.singup__form {
+	display: flex;
+	flex-direction: column;
+}
+
+.signup__form {
+	width: 30%;
+	align-items: center;
+}
+
+.login__form-group {
+	display: flex;
+	flex-direction: column;
+	margin-bottom: 1em;
+}
+
+.signup__form-group {
+	display: flex;
+	flex-direction: column;
+	margin-bottom: 1em;
+	width: 100%;
+	align-items: center;
+}
+
+.login__form-group-label {
+	text-align: left;
+}
+
+.signup__form-group-label {
+	width: 120px;
+}
+
+#select {
+	width: auto;
+}
+
+.login__form-group-label span {
+	margin-left: 1em;
+}
+
+.login__text-input {
+	color: white;
+	border: none;
+	text-align: center;
+}
+
+.signup__text-input {
+	width: 100%;
+	overflow: hidden;
+	padding: 8px 0;
+	margin: 8px 0;
+	border: none;
+	border-bottom: 1px solid white;
+	color: lightgray;
+}
+
+.login__Button {
+	margin-bottom: 1em;
+}
+
+.signup__form-group-button {
+	width: 100%;
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	margin-top: 2em;
+}
+
+.signup__Button {
+	width: 40%;
+}
+
+.principal {
+	margin: auto;
+	width: 95%;
+	height: 100vh;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+}
+
+.panel1 {
+	width: 70%;
+	height: 100vh;
+}
+
+.panel2 {
+	width: 29%;
+	height: 100vh;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+}
+
+.video {
+	width: 100%;
+	height: 90vh;
+	background-color: black;
+	display: flex;
+	flex-direction:column;
+	align-items: flex-start;
+	justify-content:flex-start; ;
+}
+
+.chat {
+	width: 100%;
+	height: 10vh;
+}
+
+.chat-form {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	align-items: center;
+	height: 10vh;
+}
+
+.form-group {
+	margin: 0;
+	padding: 0;
+	display: flex;
+	flex-direction: row;
+	width: 70%;
+	height: 10vh;
+	align-items: center;
+}
+
+.form-label {
+	margin-right: 1em;
+}
+
+.chats {
+	height: 75vh;
+	width: 100%;
+	overflow-y: auto;
+	font-size: 0.8em;
+}
+
+#Moderador {
+	color: red;
+	text-align: center;
+}
+
+.others {
+	text-align: left;
+}
+
+.me {
+	text-align: right;
+	width: 100%;
+}
+
+#Moderador.me {
+	text-align: right;
+	color: #007bff;
+}
+
+.modal-dialog {
+	background-color: white;
+	color: white;
+}

@@ -1,0 +1,14 @@
+<h1>Lista de champs</h1>
+<h2>
+  Suggested champs
+</h2>
+{{#if exist}}
+<ul>
+  {{#each data}}
+  <li class={{this.estilo}}>{{this.nombre}}</li>
+  {{/each}}
+</ul>
+{{/if}}
+
+{{>lovedChamps }}
+{{>hatedChamps }}
