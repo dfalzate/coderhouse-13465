@@ -14,7 +14,7 @@
 - :muscle: Clase 10 18-09-2021 [mongoDB, DBaaS, Node,js](https://coderhouse.zoom.us/rec/share/8di5V0V2VSerwhFh5JcT0m81EX9N9Bw8Jw1pFWjR4YyBXwQ1C3Rm7FeiS6zARE7N.yKPWrasHzimNuMuT?startTime=1631970086000)
 - :muscle: Clase 11 25-09-2021 [TDD, faker, normalizacion de datos](https://coderhouse.zoom.us/rec/share/GLHSp9BvcIic9iJqPO_qVRZCeVHkTsOQxYjsZ31c_-dSwcT4rHIZCKWi2NlLVCJ1.ewTC8-8q-iUqGmC9?startTime=1632574877000)
 - :muscle: Clase 12 02-10-2021 [cookies, session, redis, mongodb](https://coderhouse.zoom.us/rec/share/mBljLJZNdjL1i-66-dHssGxc8xG9gLw5KvQz_ehi4p0sM3JNE7OA2qpWxbsysdoq.GADn3qL9kGUsNWU-?startTime=1633179751000)
-- :muscle: Clase 13 09-10-2021 [passport, JWT, autenticacion con Facebook y twitter]()
+- :muscle: Clase 13 09-10-2021 [passport, JWT, autenticacion con Facebook y twitter](https://drive.google.com/file/d/1GySFclER617YhP2nd3AKZ1fqczRBg6z8/view?usp=sharing)
 
 
 ## Afterclass
