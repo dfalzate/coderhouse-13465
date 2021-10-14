@@ -31,5 +31,6 @@
 - :thinking:  Afterclass 10 22-09-2021 [Validacion de esquemas con Mongoose](https://coderhouse.zoom.us/rec/share/OxrN8D3SNVocAkg_knJTSpZxAKz4Mx6U0ZKQZZgZBkuDJeWCrE5qiol3hQKMVwJN.2zANzsgiYUWVRXrD?startTime=1632351658000)
 - :thinking:  Afterclass 11 29-09-2021 [Testing CRUD de servidor express con jest y supertest ](https://coderhouse.zoom.us/rec/share/DdTnPe93tigZ1ZbgUcxJMkfmzh3fYg-ARAIpEZOrRoRjsZ6rnY2h1zoksukW_o8e.v1vg0oMRU8kNvKaP?startTime=1632956478000)
 - :thinking:  Afterclass 12 06-10-2021 [Express-session y mongo - explicacion CORS](https://coderhouse.zoom.us/rec/share/dgQqdB9Z4l8POCvrrYwrtjjh0uzjdwlivc6PziTszmJVczx0SxmMkXRNCa4_8ido.AYLtmTxBNkIwAoBS?startTime=1633561319000)
+- :thinking:  Afterclass 13 06-10-2021 [Passport Google](https://coderhouse.zoom.us/rec/share/0DANe3MGiVCyQkCQaq4Z_nBo1wUNrKLOJsuhzLXporOastjSEU2-0bfxNT0pqXiF._pVkGfqJVPv-uoZA?startTime=1634165847000)
 
 ## By Diego Alzate :sunglasses: 
