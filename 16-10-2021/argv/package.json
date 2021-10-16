@@ -1,0 +1,13 @@
+{
+  "name": "argv",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start":" node index.js param1 param2 param3 1 2 3"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}

@@ -1,0 +1,23 @@
+{
+  "name": "minimist1",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon index.js -a -b 3 4 5 --nombre NombreNuevo",
+    "start4": "nodemon index.js --a --b 3 4 5",
+    "start3": "nodemon index.js --a 1 --b 2 3 4 5",
+    "start2": "nodemon index.js -a 1 -b 2 3 4 5",
+    "start1": "nodemon index.js 1 2 3 4 5"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "minimist": "^1.2.5"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.13"
+  }
+}
