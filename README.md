@@ -15,7 +15,7 @@
 - :muscle: Clase 11 25-09-2021 [TDD, faker, normalizacion de datos](https://coderhouse.zoom.us/rec/share/GLHSp9BvcIic9iJqPO_qVRZCeVHkTsOQxYjsZ31c_-dSwcT4rHIZCKWi2NlLVCJ1.ewTC8-8q-iUqGmC9?startTime=1632574877000)
 - :muscle: Clase 12 02-10-2021 [cookies, session, redis, mongodb](https://coderhouse.zoom.us/rec/share/mBljLJZNdjL1i-66-dHssGxc8xG9gLw5KvQz_ehi4p0sM3JNE7OA2qpWxbsysdoq.GADn3qL9kGUsNWU-?startTime=1633179751000)
 - :muscle: Clase 13 09-10-2021 [passport, JWT, autenticacion con Facebook y twitter](https://drive.google.com/file/d/1GySFclER617YhP2nd3AKZ1fqczRBg6z8/view?usp=sharing)
-- :muscle: Clase 14 09-10-2021 [minimist, yargs, process](https://coderhouse.zoom.us/rec/share/_mbI9O6l2AArItcgSC6FlkrDb2oRe-YSg1eciSSQw347VpOpixIqm0pi2JC1Gw5q.zMBsn1q4s4J1Wa4Y?startTime=1634389304000)
+- :muscle: Clase 14 16-10-2021 [minimist, yargs, process](https://coderhouse.zoom.us/rec/share/_mbI9O6l2AArItcgSC6FlkrDb2oRe-YSg1eciSSQw347VpOpixIqm0pi2JC1Gw5q.zMBsn1q4s4J1Wa4Y?startTime=1634389304000)
 
 ## Afterclass
 
@@ -32,5 +32,6 @@
 - :thinking:  Afterclass 11 29-09-2021 [Testing CRUD de servidor express con jest y supertest ](https://coderhouse.zoom.us/rec/share/DdTnPe93tigZ1ZbgUcxJMkfmzh3fYg-ARAIpEZOrRoRjsZ6rnY2h1zoksukW_o8e.v1vg0oMRU8kNvKaP?startTime=1632956478000)
 - :thinking:  Afterclass 12 06-10-2021 [Express-session y mongo - explicacion CORS](https://coderhouse.zoom.us/rec/share/dgQqdB9Z4l8POCvrrYwrtjjh0uzjdwlivc6PziTszmJVczx0SxmMkXRNCa4_8ido.AYLtmTxBNkIwAoBS?startTime=1633561319000)
 - :thinking:  Afterclass 13 06-10-2021 [Passport Google](https://coderhouse.zoom.us/rec/share/0DANe3MGiVCyQkCQaq4Z_nBo1wUNrKLOJsuhzLXporOastjSEU2-0bfxNT0pqXiF._pVkGfqJVPv-uoZA?startTime=1634165847000)
+- :thinking:  Afterclass 14 22-10-2021 [Otros ejemplos de exec, execFile y fork](https://coderhouse.zoom.us/rec/share/Y_igLJJh1Bxc6bIg8K5baS9zaMFUDOFo3BTiLTEUUMP3FkYaeuSSJa7H9_Nv06PN.V4S0GDtvt5Voux4x?startTime=1634944365000)
 
 ## By Diego Alzate :sunglasses: 
