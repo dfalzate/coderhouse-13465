@@ -17,6 +17,7 @@
 - :muscle: Clase 13 09-10-2021 [passport, JWT, autenticacion con Facebook y twitter](https://drive.google.com/file/d/1GySFclER617YhP2nd3AKZ1fqczRBg6z8/view?usp=sharing)
 - :muscle: Clase 14 16-10-2021 [minimist, yargs, process](https://coderhouse.zoom.us/rec/share/_mbI9O6l2AArItcgSC6FlkrDb2oRe-YSg1eciSSQw347VpOpixIqm0pi2JC1Gw5q.zMBsn1q4s4J1Wa4Y?startTime=1634389304000)
 - :muscle: Clase 15 30-10-2021 cluster, forever, mp2, nginx [Parte 1 - Arranca 3:47:15](https://coderhouse.zoom.us/rec/share/P37DLcbs-sQ132l16l3freWac1zMGJHi0QWzu43tEGig5qQxeb0mgUIqOutXXtTx.edlZTcNyHEC_o3Jw?startTime=1635584652000) [Parte 2](https://coderhouse.zoom.us/rec/share/P37DLcbs-sQ132l16l3freWac1zMGJHi0QWzu43tEGig5qQxeb0mgUIqOutXXtTx.edlZTcNyHEC_o3Jw?startTime=1635604744000)
+- :muscle: Clase 16 06-11-2021 [log4js, winston, pino, artillery, profiling](https://coderhouse.zoom.us/rec/share/H6Pkz8slnW4np7p8paXLGH1PkDcZ1af9mZ8sogI9w5o-YOgL61JEA6vpHaTf8vD_.WpOE-XZ-7hUc_GN3?startTime=1636202776000)
 
 ## Afterclass
 
