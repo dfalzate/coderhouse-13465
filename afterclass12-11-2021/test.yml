@@ -1,0 +1,23 @@
+config:
+  target: "http://localhost:3000"
+  phases: 
+    - duration: 20
+      arrivalRate: 50
+      name: warm up
+    - duration: 20
+      arrivalRate: 50
+      rampTo: 100
+      name: ramp up load
+    - duracion: 20
+      arrivalRate: 100
+      name: sustained load
+
+scenarios:
+  - name: "console"
+    flow:
+      - get:
+          url: "/console"
+  - name: "noconsole"
+    flow:
+      - get:
+          url: "/noconsole"
