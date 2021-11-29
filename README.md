@@ -38,5 +38,6 @@
 - :thinking:  Afterclass 13 06-10-2021 [Passport Google](https://coderhouse.zoom.us/rec/share/0DANe3MGiVCyQkCQaq4Z_nBo1wUNrKLOJsuhzLXporOastjSEU2-0bfxNT0pqXiF._pVkGfqJVPv-uoZA?startTime=1634165847000)
 - :thinking:  Afterclass 14 22-10-2021 [Otros ejemplos de exec, execFile y fork](https://coderhouse.zoom.us/rec/share/Y_igLJJh1Bxc6bIg8K5baS9zaMFUDOFo3BTiLTEUUMP3FkYaeuSSJa7H9_Nv06PN.V4S0GDtvt5Voux4x?startTime=1634944365000)
 - :thinking:  Afterclass 16 12-11-2021 [Nginx, pm2, artillery y autocannon](https://coderhouse.zoom.us/rec/share/LYYLxQuv2F9vlVg9KRWW8cb8yJDAGOoGnWgODC41aoLSNhvKeUQ74eaUCXnbiWk.gmKLbYboFJyKTIjd?startTime=1636757121000)
+- :thinking:  Afterclass 17 29-11-2021 [AWS IAM](https://coderhouse.zoom.us/rec/share/KTv6FMnONeQ5Li9BBZwczv6j8_zXw2KsIh8PVyu3pdDLUwgulybP3BulSYr5hPpH.VO7lo_1ulBnfrckm?startTime=1638226417000)
 
 ## By Diego Alzate :sunglasses: 
