@@ -20,6 +20,7 @@
 - :muscle: Clase 16 06-11-2021 [log4js, winston, pino, artillery, profiling](https://coderhouse.zoom.us/rec/share/H6Pkz8slnW4np7p8paXLGH1PkDcZ1af9mZ8sogI9w5o-YOgL61JEA6vpHaTf8vD_.WpOE-XZ-7hUc_GN3?startTime=1636202776000)
 - :muscle: Clase 17 20-11-2021 [Git, Heroku, AWS, SNS](https://mega.nz/file/4c9UUJba#Ho2rIptGqg46C40eGrtsMB_LIliyxPyuxf_r2VGwz1Q)
 - :muscle: Clase 18 27-11-2021 [Nodemailer, Twilio, SMS, Whatsapp](https://coderhouse.zoom.us/rec/share/hWBVifV593NrVcRyLQ8IS3HWIWwHVworlVuP-HLD-reqPBSXkV4A3IDPQj69lhcG.xsm72cJD_vtLNYUO?startTime=1638018076000)
+- :muscle: Clase 19 04-12-2021 [NPM, YARN, ARQUITECTURA EN CAPAS](https://coderhouse.zoom.us/rec/share/2-GCOk1qXj34Q2bAufcMXoSd3MNN9KUxOeSOCEBkrDWaKjnEaTVr_DO0aVECqw.yhwzIl8vGVxtF0_a?startTime=1638622480000)
 
 ## Afterclass
 
