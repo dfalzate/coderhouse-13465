@@ -21,7 +21,7 @@
 - :muscle: Clase 17 20-11-2021 [Git, Heroku, AWS, SNS](https://mega.nz/file/4c9UUJba#Ho2rIptGqg46C40eGrtsMB_LIliyxPyuxf_r2VGwz1Q)
 - :muscle: Clase 18 27-11-2021 [Nodemailer, Twilio, SMS, Whatsapp](https://coderhouse.zoom.us/rec/share/hWBVifV593NrVcRyLQ8IS3HWIWwHVworlVuP-HLD-reqPBSXkV4A3IDPQj69lhcG.xsm72cJD_vtLNYUO?startTime=1638018076000)
 - :muscle: Clase 19 04-12-2021 [NPM, YARN, ARQUITECTURA EN CAPAS](https://coderhouse.zoom.us/rec/share/2-GCOk1qXj34Q2bAufcMXoSd3MNN9KUxOeSOCEBkrDWaKjnEaTVr_DO0aVECqw.yhwzIl8vGVxtF0_a?startTime=1638622480000)
-- :muscle: Clase 20 18-12-2021 [MVC, Singleton, DAO, DTO, Factory link1](https://coderhouse.zoom.us/rec/share/DNZmFhicvi3xV58zzHa-IASLh_K3CX8vVyh20ecAiN2AyqtSZ30E2edQCvitFpYr.mzLHgeDQtA0D5AL1?startTime=1639831904000) [Link2](https://coderhouse.zoom.us/rec/share/DNZmFhicvi3xV58zzHa-IASLh_K3CX8vVyh20ecAiN2AyqtSZ30E2edQCvitFpYr.mzLHgeDQtA0D5AL1?startTime=1639832530000)
+- :muscle: Clase 20 18-12-2021 [MVC, Singleton, DAO, DTO, Factory](https://coderhouse.zoom.us/rec/share/DNZmFhicvi3xV58zzHa-IASLh_K3CX8vVyh20ecAiN2AyqtSZ30E2edQCvitFpYr.mzLHgeDQtA0D5AL1?startTime=1639832530000)
 
 ## Afterclass
 
