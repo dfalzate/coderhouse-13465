@@ -1,0 +1,18 @@
+{
+  "type": "module",
+  "name": "repository",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node main.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@types/minimist": "^1.2.1",
+    "@types/mongodb": "^3.6.17",
+    "mongodb": "^4.0.0-beta.3"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "type": "module",
+  "name": "dao",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "leer": "node index.js --cmd buscar",
+    "escribir": "node index.js --cmd agregar --nombre TV --precio 12.34 --stock 99",
+    "borrar": "node index.js --cmd borrar"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "minimist": "^1.2.5",
+    "mongoose": "^6.0.12"
+  },
+  "devDependencies": {
+    "eslint": "^8.4.1"
+  }
+}

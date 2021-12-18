@@ -1,0 +1,13 @@
+{
+  "type": "module",
+  "name": "resolucion",
+  "version": "1.0.0",
+  "main": "testDao.js",
+  "scripts": {
+    "test": "node ."
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": ""
+}

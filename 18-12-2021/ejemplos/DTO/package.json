@@ -1,0 +1,21 @@
+{
+  "type": "module",
+  "name": "dto",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "leer": "node index.js --cmd buscar",
+    "escribir": "node index.js --cmd agregar --nombre TV --precio 12.34 --stock 99",
+    "escribir2": "node index.js --cmd agregar --nombre PC --precio 56.78 --stock 50",
+    "borrar": "node index.js --cmd borrar",
+    "leerCot": "node index.js --cmd buscar_con_cot"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "minimist": "^1.2.5",
+    "mongoose": "^5.12.13"
+  }
+}
