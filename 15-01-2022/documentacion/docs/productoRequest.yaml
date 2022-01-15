@@ -1,0 +1,22 @@
+components:
+  requestBodies:
+    newProduct:
+      type: object
+      required:
+        - title
+        - price
+        - thumbnail
+      properties:
+        title: 
+          type: string  
+          description: Product title
+        price:
+          type: number
+          description: Product price
+        thumbnail:
+          type: string
+          description: Product image
+      example:
+        title: Titulo ejemplo Request
+        price: 123
+        thumbnail: http://image.product.com/image.jpg
