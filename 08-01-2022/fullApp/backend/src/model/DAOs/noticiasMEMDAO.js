@@ -22,7 +22,7 @@ class NoticiasMemDAO extends noticiasBaseDAO{
         vista: false,
         _id: 2,
         fyh: "1/8/2022, 10:20:53 AM"
-      }
+      },
     ]
   }
 
