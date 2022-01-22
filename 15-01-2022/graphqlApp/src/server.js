@@ -36,43 +36,59 @@ const schema = buildSchema(`
   }
 `)
 
-const personas =[]
+const personas = [
+  {
+    id: "be39e707-cd5f-41ff-aa2a-00c0e7c475fc",
+    nombre: "nombre1",
+    edad: 10,
+  },
+  {
+    id: "be39e707-cd5f-41ff-aa2a-00c0e7c475fa",
+    nombre: "nombre2",
+    edad: 20,
+  },
+];
 
 function addPersona({ data }) {
-  const id = uuid()
-  const persona = data
-  persona.id=id
-  personas.push(persona)
-  return persona
+  const id = uuid();
+  const persona = data;
+  persona.id = id;
+  personas.push(persona);
+  return persona;
 }
- 
+
 function getPersona({ id }) {
-  
+  let index = -1;
+  personas.map((persona, _index) => {
+    if (persona.id === id) index = _index;
+  });
+  if (index !== -1) return index;
+  throw new Error("Persona no encontrada");
 }
 
 function getPersonas() {
-  return personas
+  return personas;
 }
 
-function deletePersona() {
-}
+function deletePersona() {}
 
-function updatePersona() {
-  
-}
+function updatePersona() {}
 
-app.use('/graphql', graphqlHTTP({
-  schema: schema,
-  rootValue: {
-    addPersona,
-    getPersonas,
-    deletePersona,
-    updatePersona,
-    getPersona
-  },
-  graphiql:true
-}))
+app.use(
+  "/graphql",
+  graphqlHTTP({
+    schema: schema,
+    rootValue: {
+      addPersona,
+      getPersonas,
+      deletePersona,
+      updatePersona,
+      getPersona,
+    },
+    graphiql: true,
+  }),
+);
 
-const PORT = process.env.PORT || 3000
+const PORT = process.env.PORT || 4000;
 const server = app.listen(PORT, () => console.log(emoji.get('fire'),`Server started on port http://localhost:${PORT}`))
 server.on('error', (err) => console.log(err))

@@ -44,5 +44,7 @@
 - :thinking:  Afterclass 16 12-11-2021 [Nginx, pm2, artillery y autocannon](https://coderhouse.zoom.us/rec/share/LYYLxQuv2F9vlVg9KRWW8cb8yJDAGOoGnWgODC41aoLSNhvKeUQ74eaUCXnbiWk.gmKLbYboFJyKTIjd?startTime=1636757121000)
 - :thinking:  Afterclass 17 29-11-2021 [AWS IAM](https://coderhouse.zoom.us/rec/share/KTv6FMnONeQ5Li9BBZwczv6j8_zXw2KsIh8PVyu3pdDLUwgulybP3BulSYr5hPpH.VO7lo_1ulBnfrckm?startTime=1638226417000)
 - :thinking:  Afterclass 21 14-01-2022 [Testing MOCHA, CHAI, SUPERTEST](https://coderhouse.zoom.us/rec/share/J51gj28YgrB3U8p3BXo_XcaL3BAd4sIwAIF8Ugr4zm7tf_tckkCpo713H5aj2Ks.5YuHSGimtpyi2_wQ?startTime=1642201405000)
+- :thinking:  Afterclass 21 21-01-2022 [React y GraphQL](https://drive.google.com/file/d/1daMe5cm2oGeDA8onIJouJtdxaV7wdGgV/view?usp=sharing)
+
 
 ## By Diego Alzate :sunglasses: 
