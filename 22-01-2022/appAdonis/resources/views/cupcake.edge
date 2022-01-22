@@ -1,0 +1,8 @@
+<ul>
+  <h1>Cupcakes</h1>
+  @each(cupcake in cupcakes)
+    <li>
+      Name: {{ cupcake.name }} | Description: {{ cupcake.description }} | Price: {{ cupcake.price }}
+    </li>
+  @endeach
+</ul>
