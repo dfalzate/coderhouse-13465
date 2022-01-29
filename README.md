@@ -25,7 +25,7 @@
 - :muscle: Clase 21 08-01-2022 [Servidor completo + testing ](https://coderhouse.zoom.us/rec/play/wzGzFssfIOXobM72f_dPr5egIhhT-Dn-3F5bxao8gZ6DKsspLJmxk8YcVc_yGgzo6NXKdfOVnpt0ldgX.7mUTjDajnqh1CAem?continueMode=true&_x_zm_rtaid=yKmdsTrwTLeYN9dsJIYiMQ.1641680789430.7ce497e4f45548db3680da74389c22f3&_x_zm_rhtaid=704)
 - :muscle: Clase 22 15-01-2022 [API, API rest, swagger y GraphQL](https://coderhouse.zoom.us/rec/share/X0B1hPAOqRxE0WnltiHkZ-psMrKtEyF9srD8eXhiaN1BIXBFgulzidRBuCEwpmZd.w5g8h1rFLN6t43oe?startTime=1642251684000)
 - :muscle: Clase 23 22-01-2022 [Adonis, Nestjs, Sails y Koa](https://coderhouse.zoom.us/rec/share/UKIihP6cavHZR4s4U2mC2FC9QF6AqwSP-EgIyuZM7PR9GSvi0yhGC2SDrKHdSUEu.9vtOinlNurqW2us3?startTime=1642856432000)
-- :muscle: Clase 24 22-01-2022 [Deno](https://coderhouse.zoom.us/rec/share/me86aatpr3ZlbGexng5Ry-9n1G9hGr0E7hb5b3rIUy__wRJDV9FPXOw-ADw2JFsW.EBAh-671Y5kccOCW?startTime=1643461339000)
+- :muscle: Clase 24 29-01-2022 [Deno](https://coderhouse.zoom.us/rec/share/me86aatpr3ZlbGexng5Ry-9n1G9hGr0E7hb5b3rIUy__wRJDV9FPXOw-ADw2JFsW.EBAh-671Y5kccOCW?startTime=1643461339000)
 
 ## Afterclass
 
