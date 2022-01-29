@@ -1,0 +1,12 @@
+{
+  "deno.enable":true,
+  "deno.suggest.import.hosts":{
+    "https://deno.land": false
+  },
+  "deno.suggest.imports.hosts": {
+    "https://deno.land": true,
+    "https://x.nest.land": true,
+    "https://crux.land": true,
+    "http://deno.land": false
+  }
+}
