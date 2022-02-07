@@ -1,0 +1,29 @@
+{
+	"name": "github",
+	"version": "1.0.0",
+	"description": "Nuestro primer repo! Este es un cambio! Esto es nuevo",
+	"main": "server.js",
+	"type": "module",
+	"scripts": {
+		"test": "echo \"Error: no test specified\" && exit 1",
+		"start": "node server.js"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/coder13465/primerRepo.git"
+	},
+	"keywords": [],
+	"author": "",
+	"license": "ISC",
+	"bugs": {
+		"url": "https://github.com/coder13465/primerRepo/issues"
+	},
+	"homepage": "https://github.com/coder13465/primerRepo#readme",
+	"dependencies": {
+		"cors": "^2.8.5",
+		"dotenv": "^10.0.0",
+		"express": "^4.17.1",
+		"morgan": "^1.10.0",
+		"node-emoji": "^1.11.0"
+	}
+}
