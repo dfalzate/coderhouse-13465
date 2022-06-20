@@ -4,11 +4,11 @@ import dotenv from "dotenv";
 dotenv.config();
 
 const transporter = createTransport({
-  host: process.env.HOST,
-  port: process.env.PORT,
+  host: "smtp.ethereal.email",
+  port: 587,
   auth: {
-    user: process.env.AUTH_USER,
-    pass: process.env.AUTH_PASS,
+    user: "ethel.bogan7@ethereal.email",
+    pass: "QdpqpeYN4FvdRG22TK",
   },
 });
 
@@ -37,22 +37,22 @@ sendMailEthereal();
 
 /* ---------------------------------- GMAIL --------------------------------- */
 
-const transporterGmail = createTransport({
-  service: "gmail",
-  port: 587,
-  auth: {
-    user: "diegoff@gmail.com",
-    pass: "oukzwglwrkovrnki",
-  },
-});
+// const transporterGmail = createTransport({
+//   service: "gmail",
+//   port: 587,
+//   auth: {
+//     user: "diegoff@gmail.com",
+//     pass: "natpleaqgtsqvepw",
+//   },
+// });
 
-async function sendMailGmail() {
-  try {
-    const response = await transporterGmail.sendMail(mailOptions);
-    console.log(response);
-  } catch (error) {
-    console.log(error);
-  }
-}
+// async function sendMailGmail() {
+//   try {
+//     const response = await transporterGmail.sendMail(mailOptions);
+//     console.log(response);
+//   } catch (error) {
+//     console.log(error);
+//   }
+// }
 
-sendMailGmail();
+// sendMailGmail();

@@ -2,23 +2,20 @@ const log4js = require('log4js')
 
 log4js.configure({
   appenders: {
-    consola: { type: 'console' },
-    archivoErrores: { type: 'file', filename: 'errors.log' },
-    archivoDebug: { type: 'file', filename: 'debug.log' },
-    loggerConsole: { type: 'logLevelFilter', appender: 'consola', level: 'info' },
-    loggerDebug:{type:'logLevelFilter', appender:'archivoErrores', level:'error'},
-    loggerArchivoErrores: { type: 'logLevelFilter', appender: 'archivoErrores', level: 'error' },
-    loggerArchivoDebug:{type:'logLevelFilter', appender:'archivoDebug', level: 'debug'}
+    consola: { type: "console" },
+    archivoDebug: { type: "file", filename: "debug.log" },
+    archivoErrores: { type: "file", filename: "errors.log" },
+    loggerInfo: { type: "logLevelFilter", appender: "consola", level: "info" },
+    loggerDebug: { type: "logLevelFilter", appender: "archivoDebug", level: "debug" },
+    loggerErrores: { type: "logLevelFilter", appender: "archivoErrores", level: "error" },
   },
   categories: {
-    default: { appenders: ['loggerConsole'], level: 'all' },
-    prod:{ appenders:['loggerArchivoErrores', 'loggerArchivoDebug'], level:'all'}
-  }
-})
+    default: { appenders: ["loggerInfo"], level: "all" },
+    prod: { appenders: ["loggerDebug", "loggerErrores"], level: "all" },
+  },
+});
 
 let logger = null
-
-console.log(process.argv[2])
 
 if (process.argv[2] === 'PROD') {
   logger=log4js.getLogger('prod')

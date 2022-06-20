@@ -21,6 +21,8 @@ function crearError() {
   process.exit(-5)
 }
 
+
+//1
 function promedio(args) {
   if (args._.length ===0 ) {
     console.log({

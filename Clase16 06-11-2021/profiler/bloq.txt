@@ -1,78 +1,172 @@
-Started phase 0, duration: 1s @ 11:23:27(-0500) 2021-11-06
-Report @ 11:23:37(-0500) 2021-11-06
-Elapsed time: 10 seconds
-  Scenarios launched:  10
-  Scenarios completed: 0
-  Requests completed:  126
-  Mean response/sec: 13.81
-  Response time (msec):
-    min: 92.5
-    max: 1441.9
-    median: 696.4
-    p95: 1408.8
-    p99: 1440.5
-  Codes:
-    200: 126
+Statistical profiling result from bloq.log, (46752 ticks, 1 unaccounted, 0 excluded).
 
-Report @ 11:23:47(-0500) 2021-11-06
-Elapsed time: 20 seconds
-  Scenarios launched:  0
-  Scenarios completed: 0
-  Requests completed:  134
-  Mean response/sec: 13.45
-  Response time (msec):
-    min: 648.2
-    max: 1431.3
-    median: 670.5
-    p95: 1338.3
-    p99: 1409.9
-  Codes:
-    200: 134
+ [Shared libraries]:
+   ticks  total  nonlib   name
+  46413   99.3%          /home/diego/.nvm/versions/node/v18.3.0/bin/node
+      3    0.0%          /usr/lib64/libstdc++.so.6.0.29
+      2    0.0%          [vdso]
 
-Report @ 11:23:57(-0500) 2021-11-06
-Elapsed time: 30 seconds
-  Scenarios launched:  0
-  Scenarios completed: 0
-  Requests completed:  132
-  Mean response/sec: 13.29
-  Response time (msec):
-    min: 663
-    max: 1381.9
-    median: 678.1
-    p95: 1357
-    p99: 1376.5
-  Codes:
-    200: 132
+ [JavaScript]:
+   ticks  total  nonlib   name
+      3    0.0%    0.9%  Function: ^resOnFinish node:_http_server:836:21
+      2    0.0%    0.6%  RegExp: ^[\^_`a-zA-Z\-0-9!#$%&'*+.|~]+$
+      2    0.0%    0.6%  RegExp: ^[!#$%&'*+.^_`|~0-9A-Za-z-]+\/[!#$%&'*+.^_`|~0-9A-Za-z-]+$
+      2    0.0%    0.6%  RegExp: [^\t\x20-\x7e\x80-\xff]
+      2    0.0%    0.6%  LazyCompile: *processTicksAndRejections node:internal/process/task_queues:67:35
+      2    0.0%    0.6%  LazyCompile: *nextTick node:internal/process/task_queues:103:18
+      2    0.0%    0.6%  Function: ^normalizeParseOptions /home/diego/Documents/Work/Coderhouse/coderhouse-13465/Clase16 06-11-2021/profiler/node_modules/qs/lib/parse.js:189:59
+      2    0.0%    0.6%  Function: ^next /home/diego/Documents/Work/Coderhouse/coderhouse-13465/Clase16 06-11-2021/profiler/node_modules/express/lib/router/route.js:114:16
+      2    0.0%    0.6%  Function: ^applyHeaders /home/diego/Documents/Work/Coderhouse/coderhouse-13465/Clase16 06-11-2021/profiler/node_modules/cors/lib/index.js:144:24
+      1    0.0%    0.3%  RegExp: ^text\/|^application\/(javascript|json)
+      1    0.0%    0.3%  RegExp: ^[!#$%&'*+.^_`|~0-9A-Za-z-]+$
+      1    0.0%    0.3%  RegExp: ^.*[\.\/\\]
+      1    0.0%    0.3%  RegExp: ; *([!#$%&'*+.^_`|~0-9A-Za-z-]+) *= *("(?:[\u000b\u0020\u0021\u0023-\u005b\u005d-\u007e\u0080-\u00ff]|\\[\u000b\u0020-\u00ff])*"|[!#$%&'*+.^_`|~0-9A-Za-z-]+) *
+      1    0.0%    0.3%  RegExp: (\[[^[\]]*])
+      1    0.0%    0.3%  LazyCompile: *emitHook node:internal/async_hooks:225:18
+      1    0.0%    0.3%  Function: ^writeHead node:_http_server:275:19
+      1    0.0%    0.3%  Function: ^setUnrefTimeout node:internal/timers:377:25
+      1    0.0%    0.3%  Function: ^s /home/diego/.config/Code/User/workspaceStorage/ea1b347d7ea9fc738b753a9105700a95/ms-vscode.js-debug/bootloader.js:2:89254
+      1    0.0%    0.3%  Function: ^removeListener node:events:689:28
+      1    0.0%    0.3%  Function: ^removeAt node:internal/priority_queue:93:11
+      1    0.0%    0.3%  Function: ^realpathSync node:fs:2467:22
+      1    0.0%    0.3%  Function: ^processTicksAndRejections node:internal/process/task_queues:67:35
+      1    0.0%    0.3%  Function: ^popAsyncContext node:internal/async_hooks:552:25
+      1    0.0%    0.3%  Function: ^pbkdf2Sync node:internal/crypto/pbkdf2:68:20
+      1    0.0%    0.3%  Function: ^parseExtendedQueryString /home/diego/Documents/Work/Coderhouse/coderhouse-13465/Clase16 06-11-2021/profiler/node_modules/express/lib/utils.js:291:34
+      1    0.0%    0.3%  Function: ^parse /home/diego/Documents/Work/Coderhouse/coderhouse-13465/Clase16 06-11-2021/profiler/node_modules/forwarded/index.js:59:16
+      1    0.0%    0.3%  Function: ^optionsCallback /home/diego/Documents/Work/Coderhouse/coderhouse-13465/Clase16 06-11-2021/profiler/node_modules/cors/lib/index.js:198:34
+      1    0.0%    0.3%  Function: ^handle /home/diego/Documents/Work/Coderhouse/coderhouse-13465/Clase16 06-11-2021/profiler/node_modules/express/lib/router/layer.js:86:49
+      1    0.0%    0.3%  Function: ^handle /home/diego/Documents/Work/Coderhouse/coderhouse-13465/Clase16 06-11-2021/profiler/node_modules/express/lib/application.js:158:29
+      1    0.0%    0.3%  Function: ^getEncodingOps node:buffer:681:24
+      1    0.0%    0.3%  Function: ^getESMFacade node:internal/bootstrap/loaders:280:15
+      1    0.0%    0.3%  Function: ^from node:buffer:298:28
+      1    0.0%    0.3%  Function: ^flow node:internal/streams/readable:1020:14
+      1    0.0%    0.3%  Function: ^first /home/diego/Documents/Work/Coderhouse/coderhouse-13465/Clase16 06-11-2021/profiler/node_modules/ee-first/index.js:24:15
+      1    0.0%    0.3%  Function: ^emitStatistics node:internal/http:38:24
+      1    0.0%    0.3%  Function: ^emitReadable_ node:internal/streams/readable:586:23
+      1    0.0%    0.3%  Function: ^emit node:events:475:44
+      1    0.0%    0.3%  Function: ^dispatch /home/diego/Documents/Work/Coderhouse/coderhouse-13465/Clase16 06-11-2021/profiler/node_modules/express/lib/router/route.js:98:45
+      1    0.0%    0.3%  Function: ^destroy node:internal/inspector_async_hook:40:12
+      1    0.0%    0.3%  Function: ^compact /home/diego/Documents/Work/Coderhouse/coderhouse-13465/Clase16 06-11-2021/profiler/node_modules/qs/lib/utils.js:180:31
+      1    0.0%    0.3%  Function: ^clearBuffer node:internal/streams/writable:530:21
+      1    0.0%    0.3%  Function: ^before node:internal/inspector_async_hook:28:11
+      1    0.0%    0.3%  Function: ^after node:internal/inspector_async_hook:34:10
+      1    0.0%    0.3%  Function: ^addListener node:events:618:58
+      1    0.0%    0.3%  Function: ^Module.require node:internal/modules/cjs/loader:997:36
+      1    0.0%    0.3%  Function: ^Module._nodeModulePaths node:internal/modules/cjs/loader:630:37
+      1    0.0%    0.3%  Function: ^Module._load node:internal/modules/cjs/loader:759:24
+      1    0.0%    0.3%  Function: ^C node:internal/deps/cjs-module-lexer/dist/lexer:1:1152
 
-Report @ 11:24:05(-0500) 2021-11-06
-Elapsed time: 38 seconds
-  Scenarios launched:  0
-  Scenarios completed: 10
-  Requests completed:  108
-  Mean response/sec: 11.53
-  Response time (msec):
-    min: 72.4
-    max: 1374.9
-    median: 534.9
-    p95: 1258.4
-    p99: 1374.7
-  Codes:
-    200: 108
+ [C++]:
+   ticks  total  nonlib   name
+     99    0.2%   29.6%  __GI___libc_write
+     21    0.0%    6.3%  __GI___lll_lock_wait
+     20    0.0%    6.0%  fwrite
+     19    0.0%    5.7%  epoll_pwait
+     12    0.0%    3.6%  _int_malloc
+     12    0.0%    3.6%  __GI___libc_malloc
+      9    0.0%    2.7%  _int_free
+      9    0.0%    2.7%  __memcpy_avx_unaligned_erms
+      8    0.0%    2.4%  std::ostream::sentry::sentry(std::ostream&)@@GLIBCXX_3.4
+      8    0.0%    2.4%  __futex_abstimed_wait_common
+      6    0.0%    1.8%  std::basic_ostream<char, std::char_traits<char> >& std::__ostream_insert<char, std::char_traits<char> >(std::basic_ostream<char, std::char_traits<char> >&, char const*, long)@@GLIBCXX_3.4.9
+      5    0.0%    1.5%  __GI___pthread_cond_signal
+      4    0.0%    1.2%  __memset_avx2_unaligned_erms
+      3    0.0%    0.9%  unlink_chunk.constprop.0
+      3    0.0%    0.9%  cfree@GLIBC_2.2.5
+      3    0.0%    0.9%  __strlen_avx2
+      3    0.0%    0.9%  __memchr_avx2
+      3    0.0%    0.9%  __GI___libc_read
+      3    0.0%    0.9%  __GI__IO_file_xsputn
+      2    0.0%    0.6%  operator delete(void*)@@GLIBCXX_3.4
+      2    0.0%    0.6%  malloc_consolidate
+      2    0.0%    0.6%  __GI___pthread_mutex_unlock_usercnt
+      1    0.0%    0.3%  std::ostream::operator<<(int)@@GLIBCXX_3.4
+      1    0.0%    0.3%  std::ostream& std::ostream::_M_insert<long>(long)@@GLIBCXX_3.4.9
+      1    0.0%    0.3%  std::__detail::_Prime_rehash_policy::_M_next_bkt(unsigned long) const@@GLIBCXX_3.4.18
+      1    0.0%    0.3%  std::__detail::_Prime_rehash_policy::_M_need_rehash(unsigned long, unsigned long, unsigned long) const@@GLIBCXX_3.4.18
+      1    0.0%    0.3%  std::_Rb_tree_insert_and_rebalance(bool, std::_Rb_tree_node_base*, std::_Rb_tree_node_base*, std::_Rb_tree_node_base&)@@GLIBCXX_3.4
+      1    0.0%    0.3%  operator new[](unsigned long, std::nothrow_t const&)@@GLIBCXX_3.4
+      1    0.0%    0.3%  operator new[](unsigned long)@@GLIBCXX_3.4
+      1    0.0%    0.3%  operator new(unsigned long)@@GLIBCXX_3.4
+      1    0.0%    0.3%  epoll_ctl
+      1    0.0%    0.3%  accept4
+      1    0.0%    0.3%  __vfprintf_internal
+      1    0.0%    0.3%  __strchrnul_avx2
+      1    0.0%    0.3%  __mempcpy_avx_unaligned_erms
+      1    0.0%    0.3%  __memcmp_avx2_movbe
+      1    0.0%    0.3%  __GI___pthread_getspecific
+      1    0.0%    0.3%  __GI___mprotect
+      1    0.0%    0.3%  __GI___madvise
+      1    0.0%    0.3%  __GI___lll_lock_wake
+      1    0.0%    0.3%  _IO_no_init
 
-All virtual users finished
-Summary report @ 11:24:05(-0500) 2021-11-06
-  Scenarios launched:  10
-  Scenarios completed: 10
-  Requests completed:  500
-  Mean response/sec: 13.02
-  Response time (msec):
-    min: 72.4
-    max: 1441.9
-    median: 674.4
-    p95: 1356.9
-    p99: 1427.5
-  Scenario counts:
-    0: 10 (100%)
-  Codes:
-    200: 500
+ [Summary]:
+   ticks  total  nonlib   name
+     58    0.1%   17.4%  JavaScript
+    275    0.6%   82.3%  C++
+     80    0.2%   24.0%  GC
+  46418   99.3%          Shared libraries
+      1    0.0%          Unaccounted
+
+ [C++ entry points]:
+   ticks    cpp   total   name
+     65   39.2%    0.1%  __GI___libc_write
+     19   11.4%    0.0%  fwrite
+     12    7.2%    0.0%  __GI___libc_malloc
+     10    6.0%    0.0%  _int_malloc
+      9    5.4%    0.0%  _int_free
+      6    3.6%    0.0%  std::ostream::sentry::sentry(std::ostream&)@@GLIBCXX_3.4
+      6    3.6%    0.0%  __memcpy_avx_unaligned_erms
+      5    3.0%    0.0%  std::basic_ostream<char, std::char_traits<char> >& std::__ostream_insert<char, std::char_traits<char> >(std::basic_ostream<char, std::char_traits<char> >&, char const*, long)@@GLIBCXX_3.4.9
+      3    1.8%    0.0%  unlink_chunk.constprop.0
+      3    1.8%    0.0%  __memset_avx2_unaligned_erms
+      3    1.8%    0.0%  __memchr_avx2
+      2    1.2%    0.0%  malloc_consolidate
+      2    1.2%    0.0%  __strlen_avx2
+      2    1.2%    0.0%  __GI___pthread_mutex_unlock_usercnt
+      2    1.2%    0.0%  __GI__IO_file_xsputn
+      1    0.6%    0.0%  std::ostream::operator<<(int)@@GLIBCXX_3.4
+      1    0.6%    0.0%  std::ostream& std::ostream::_M_insert<long>(long)@@GLIBCXX_3.4.9
+      1    0.6%    0.0%  std::__detail::_Prime_rehash_policy::_M_next_bkt(unsigned long) const@@GLIBCXX_3.4.18
+      1    0.6%    0.0%  std::__detail::_Prime_rehash_policy::_M_need_rehash(unsigned long, unsigned long, unsigned long) const@@GLIBCXX_3.4.18
+      1    0.6%    0.0%  std::_Rb_tree_insert_and_rebalance(bool, std::_Rb_tree_node_base*, std::_Rb_tree_node_base*, std::_Rb_tree_node_base&)@@GLIBCXX_3.4
+      1    0.6%    0.0%  operator new[](unsigned long, std::nothrow_t const&)@@GLIBCXX_3.4
+      1    0.6%    0.0%  operator new[](unsigned long)@@GLIBCXX_3.4
+      1    0.6%    0.0%  operator new(unsigned long)@@GLIBCXX_3.4
+      1    0.6%    0.0%  operator delete(void*)@@GLIBCXX_3.4
+      1    0.6%    0.0%  cfree@GLIBC_2.2.5
+      1    0.6%    0.0%  __vfprintf_internal
+      1    0.6%    0.0%  __strchrnul_avx2
+      1    0.6%    0.0%  __mempcpy_avx_unaligned_erms
+      1    0.6%    0.0%  __memcmp_avx2_movbe
+      1    0.6%    0.0%  __GI___pthread_getspecific
+      1    0.6%    0.0%  __GI___mprotect
+      1    0.6%    0.0%  _IO_no_init
+
+ [Bottom up (heavy) profile]:
+  Note: percentage shows a share of a particular caller in the total
+  amount of its parent calls.
+  Callers occupying less than 1.0% are not shown.
+
+   ticks parent  name
+  46413   99.3%  /home/diego/.nvm/versions/node/v18.3.0/bin/node
+  45750   98.6%    /home/diego/.nvm/versions/node/v18.3.0/bin/node
+  43858   95.9%      Function: ^pbkdf2Sync node:internal/crypto/pbkdf2:68:20
+  43858  100.0%        Function: ^handle /home/diego/Documents/Work/Coderhouse/coderhouse-13465/Clase16 06-11-2021/profiler/node_modules/express/lib/router/layer.js:86:49
+  43276   98.7%          Function: ^next /home/diego/Documents/Work/Coderhouse/coderhouse-13465/Clase16 06-11-2021/profiler/node_modules/express/lib/router/route.js:114:16
+  43276  100.0%            Function: ^dispatch /home/diego/Documents/Work/Coderhouse/coderhouse-13465/Clase16 06-11-2021/profiler/node_modules/express/lib/router/route.js:98:45
+    582    1.3%          LazyCompile: ~next /home/diego/Documents/Work/Coderhouse/coderhouse-13465/Clase16 06-11-2021/profiler/node_modules/express/lib/router/route.js:114:16
+    497   85.4%            Function: ^dispatch /home/diego/Documents/Work/Coderhouse/coderhouse-13465/Clase16 06-11-2021/profiler/node_modules/express/lib/router/route.js:98:45
+     85   14.6%            LazyCompile: ~dispatch /home/diego/Documents/Work/Coderhouse/coderhouse-13465/Clase16 06-11-2021/profiler/node_modules/express/lib/router/route.js:98:45
+    790    1.7%      LazyCompile: ~pbkdf2Sync node:internal/crypto/pbkdf2:68:20
+    543   68.7%        Function: ^handle /home/diego/Documents/Work/Coderhouse/coderhouse-13465/Clase16 06-11-2021/profiler/node_modules/express/lib/router/layer.js:86:49
+    543  100.0%          LazyCompile: ~next /home/diego/Documents/Work/Coderhouse/coderhouse-13465/Clase16 06-11-2021/profiler/node_modules/express/lib/router/route.js:114:16
+    543  100.0%            LazyCompile: ~dispatch /home/diego/Documents/Work/Coderhouse/coderhouse-13465/Clase16 06-11-2021/profiler/node_modules/express/lib/router/route.js:98:45
+    194   24.6%        LazyCompile: ~handle /home/diego/Documents/Work/Coderhouse/coderhouse-13465/Clase16 06-11-2021/profiler/node_modules/express/lib/router/layer.js:86:49
+    194  100.0%          LazyCompile: ~next /home/diego/Documents/Work/Coderhouse/coderhouse-13465/Clase16 06-11-2021/profiler/node_modules/express/lib/router/route.js:114:16
+    194  100.0%            LazyCompile: ~dispatch /home/diego/Documents/Work/Coderhouse/coderhouse-13465/Clase16 06-11-2021/profiler/node_modules/express/lib/router/route.js:98:45
+     53    6.7%        LazyCompile: ~<anonymous> file:///home/diego/Documents/Work/Coderhouse/coderhouse-13465/Clase16%2006-11-2021/profiler/server.js:20:21
+     53  100.0%          LazyCompile: ~handle /home/diego/Documents/Work/Coderhouse/coderhouse-13465/Clase16 06-11-2021/profiler/node_modules/express/lib/router/layer.js:86:49
+     53  100.0%            LazyCompile: ~next /home/diego/Documents/Work/Coderhouse/coderhouse-13465/Clase16 06-11-2021/profiler/node_modules/express/lib/router/route.js:114:16
 

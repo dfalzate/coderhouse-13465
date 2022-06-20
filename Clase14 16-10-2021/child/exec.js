@@ -5,7 +5,7 @@ exec('ls -lh', (err, stdout, stderr) => {
     console.log(err)
   }
   if (stderr) {
-    console.log('stderr:]\n',stderr)
+    console.log("stderr:\n", stderr);
   }
   console.log('stdout:\n', stdout)
 })

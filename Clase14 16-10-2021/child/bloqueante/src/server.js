@@ -14,7 +14,7 @@ app.use(morgan('dev'))
 function calculo() {
   let sum=0
   for (let i = 0; i < 2e4; i++) {
-    sum++,
+    sum++;
     console.log(sum)
   }
   return sum

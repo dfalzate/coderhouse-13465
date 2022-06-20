@@ -1,21 +1,26 @@
-const emoji = require('node-emoji')
+// const emoji = require('node-emoji')
 
-process.on('exit', (code) => {
+process.on("exit", (code) => {
   setTimeout(() => {
-    console.log('No deberia salir')
+    console.log("No debería salir");
   }, 5000);
-  console.log('Codigo:', code)
-})
+  console.log("Código:", code);
+});
 
-process.on('uncaughtException', (err) => {
-  console.log(err.message)
-})
+process.on("uncaughtException", (err) => {
+  console.log(err.message);
+});
 
-process.stdout.write(`${emoji.get('fire')} Cualquier cosa\n`)
+// Diferencia entre console.log y stdout
+console.log = function (d) {
+  process.stdout.write(d + "\n");
+};
 
-noExiste()
+process.stdout.write(`${emoji.get("fire")} Cualquier cosa\n`);
 
-process.exit(3)
+noExiste();
+
+process.exit(1);
 
 console.log(
   process.cwd(),
@@ -23,6 +28,5 @@ console.log(
   process.version,
   process.title,
   process.platform,
-  process.memoryUsage()
-)
-  
+  process.memoryUsage(),
+);

@@ -9,8 +9,8 @@ async function sendSMS() {
   try {
     const message = {
       body: "Hola desde twilio",
-      from: "+18507712325",
-      to: process.argv[2],
+      from: "+19895463269",
+      to: "+573017429882",
     };
     const response = await client.messages.create(message);
     console.log("SMS=>", response);
@@ -24,12 +24,10 @@ async function sendSMS() {
 async function sendWP() {
   try {
     const message = {
-      body: "Hola whatsapp desde twilio",
+      body: "Holi mochi mochi",
       from: "whatsapp:+14155238886",
-      to: "whatsapp:+573204881278",
-      mediaUrl: [
-        "https://media.gettyimages.com/photos/portrait-of-two-young-man-at-the-rooftop-picture-id1351219137?s=2048x2048",
-      ],
+      to: "whatsapp:+573017429882",
+      mediaUrl: ["https://www.mundomotero.com/wp-content/uploads/2017/06/BMW-F-700-GS.jpg"],
     };
     const response = await client.messages.create(message);
     console.log("Whatsapp=>", response);
