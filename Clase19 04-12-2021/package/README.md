@@ -1,1 +1,1 @@
-#Descripcion del paquete
+#Descripción del paquete
