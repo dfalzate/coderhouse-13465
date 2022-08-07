@@ -9,16 +9,6 @@ Deno.test({
   },
 });
 
-Deno.test({
-  name: "Strict equal",
-  fn(): void {
-    const a = 1;
-    const b = "1";
-    assertEquals(a, b);
-    // assertStrictEquals(a, b); 
-  },
-});
-
 
 Deno.test("isStrictlyEqual", function (): void {
   const a = {};

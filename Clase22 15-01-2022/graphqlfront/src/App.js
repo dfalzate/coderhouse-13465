@@ -6,6 +6,8 @@ function App() {
   const [personas, setPersonas] = React.useState([]);
   const [nombre, setNombre] = React.useState("");
   const [edad, setEdad] = React.useState(0);
+  const [email, setEmail] = React.useState("");
+  const [avatar, setAvatar] = React.useState("");
 
   React.useEffect(async () => {
     await getPersonas();
@@ -18,8 +20,8 @@ function App() {
         method: "post",
         data: {
           query: `
-            query getPersonas{
-              getPersonas{
+            query obtenerPersonas{
+              obtenerPersonas{
                 id
                 nombre
                 edad
@@ -28,7 +30,7 @@ function App() {
           `,
         },
       });
-      setPersonas(response.data.data.getPersonas);
+      setPersonas(response.data.data.obtenerPersonas);
     } catch (error) {
       console.log(error);
     }
@@ -44,8 +46,18 @@ function App() {
     setEdad(e.target.value);
   }
 
+  function onChangeEmail(e) {
+    e.preventDefault();
+    setEmail(e.target.value);
+  }
+  function onChangeAvatar(e) {
+    e.preventDefault();
+    setAvatar(e.target.value);
+  }
+
   async function onSubmit(e) {
     e.preventDefault();
+    console.log("Hola");
     try {
       const response = await axios({
         url: "http://localhost:4000/graphql",
@@ -53,9 +65,11 @@ function App() {
         data: {
           query: `
             mutation{
-              addPersona( data:{
+              agregarPersona( data:{
                 nombre:"${nombre}",
                 edad:${edad},
+                email:"${email}",
+                avatar:"${avatar}"
               }){
                 id
                 nombre
@@ -65,6 +79,7 @@ function App() {
           `,
         },
       });
+      console.log(response);
       await getPersonas();
       alert("Persona agregada");
     } catch (error) {
@@ -81,6 +96,10 @@ function App() {
           <input name='nombre' type='text' onChange={onChangeNombre} />
           <label htmlFor='edad'>Edad: </label>
           <input name='edad' type='number' min='1' onChange={onChangeEdad} />
+          <label htmlFor='email'>Email: </label>
+          <input name='email' type='email' onChange={onChangeEmail} />
+          <label htmlFor='avatar'>Avatar: </label>
+          <input name='avatar' type='url' onChange={onChangeAvatar} />
           <button type='submit'>Enviar</button>
         </form>
         {personas.length > 0 &&

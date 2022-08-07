@@ -1,13 +1,5 @@
 import { Status, helpers, Bson } from "../deps.ts";
-import type { User } from "../types/types.ts";
 import { collection } from "../db.ts";
-
-const users: User[] = [
-  {
-    name: "User1",
-    email: "email@email.com",
-  },
-];
 
 export async function getUser(ctx: any) {
   const { userId } = helpers.getQuery(ctx, { mergeParams: true });

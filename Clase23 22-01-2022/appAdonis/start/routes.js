@@ -18,6 +18,8 @@ const Route = use("Route");
 
 // Route.on("/").render("welcome");
 Route.get("/message", () => {
+  //ctx
+  // console.log(ctx)
   return "Hola Adonis";
 });
 

@@ -1,11 +1,11 @@
 import { ApiProperty } from '@nestjs/swagger';
 export class createCatDTO {
-  @ApiProperty()
+  @ApiProperty() //swagger
   readonly name: string;
 
-  @ApiProperty()
+  @ApiProperty() //swagger
   readonly age: number;
-
-  @ApiProperty()
+ 
+  @ApiProperty() //swagger
   readonly breed: string;
 }

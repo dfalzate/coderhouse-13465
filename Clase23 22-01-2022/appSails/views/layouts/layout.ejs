@@ -107,19 +107,6 @@
 
     <!--SCRIPTS-->
     <script src="/dependencies/sails.io.js"></script>
-    <script>
-      io.socket.post('/book',{
-        author:'Author',
-        category:" Category",
-        name: "Name",
-        price: 100
-      },(data, res)=>{
-        io.socket.get('/book',(data, res)=>{
-        console.log(data, res)
-      })
-      })
-
-    </script>
     <!--SCRIPTS END-->
   </body>
 </html>
